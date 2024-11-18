@@ -11,6 +11,7 @@ PATH=$PATH:"$SDK_TOOLCHAIN_DIR/bin"
 declare -a DIRS=(
     "toolchain/binutils"
     "toolchain/gcc"
+    "libraries/kos-crt-stub"
 )
 
 BUILD()
