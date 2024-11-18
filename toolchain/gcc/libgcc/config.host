@@ -837,6 +837,9 @@ x86_64-*-cygwin*)
 	# FIXME - dj - t-chkstk used to be in here, need a 64-bit version of that
 	tmake_file="${tmake_file} ${tmake_eh_file} ${tmake_dlldir_file} i386/t-slibgcc-cygming i386/t-cygming i386/t-cygwin t-crtfm t-dfprules i386/t-chkstk"
 	;;
+i[34567]86-*-kolibrios*)
+	tmake_file="${tmake_file} i386/t-chkstk
+	esac
 i[34567]86-*-mingw*)
 	extra_parts="crtbegin.o crtend.o crtfastmath.o"
 	if test x$enable_vtable_verify = xyes; then

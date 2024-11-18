@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Build dirs
+toolchain/binutils/build
+toolchain/gcc/build
